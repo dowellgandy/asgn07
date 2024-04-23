@@ -1,0 +1,39 @@
+#unique-full {
+  display: block;
+}
+
+#hide-unique-full:checked ~ #unique-full {
+  display: none;
+}
+
+#unique-first {
+  display: block;
+}
+
+#hide-unique-first:checked ~ #unique-first {
+  display: none;
+}
+
+#unique-last {
+  display: block;
+}
+
+#hide-unique-last:checked ~ #unique-last {
+  display: none;
+}
+
+#all-valid {
+  display: block;
+}
+
+#hide-all-valid:checked ~ #all-valid {
+  display: none;
+}
+
+#all-names {
+  display: block;
+}
+
+#hide-all-names:checked ~ #all-names {
+  display: none;
+}
